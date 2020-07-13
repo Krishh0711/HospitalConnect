@@ -6,7 +6,7 @@ const doctorApi = require('../../../controllers/api/v1/doctor_api');
 //create new report
 router.post('/create', doctorApi.create);
 //log in doctor
-router.post('/create-session', doctorApi.createSession);
+router.post('/login', doctorApi.createSession);
 
 
 module.exports = router;
