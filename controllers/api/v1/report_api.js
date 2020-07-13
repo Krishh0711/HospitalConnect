@@ -1,7 +1,6 @@
-const Patient = require('../../../models/patient');
 const Report = require('../../../models/report');
-const Doctor = require('../../../models/doctor');
 
+//get all report with particular status
 module.exports.reportByStatus = async function(request,response){
     
      try {
